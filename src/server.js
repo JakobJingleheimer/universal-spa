@@ -53,7 +53,7 @@ const reqHandler = (err) => {
         return console.error(err);
 
     console.info(`\tServer running in ${env} mode on http://localhost:${port}`);
-}
+};
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
